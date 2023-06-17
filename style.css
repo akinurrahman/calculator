@@ -8,7 +8,7 @@
   width: 100%;
   height: 100vh;
   background-color: #e3f9ff;
-  display: flex;
+  display: flex; 
   align-items: center;
   justify-content: center;
 }
@@ -23,8 +23,7 @@
   width: 52px;
   height: 52px;
   border-radius: 25px;
-  box-shadow: -8px -8px 15px rgba(149, 133, 133, 0.05),
-    5px 5px 15px rgba(93, 117, 142, 0.2);
+ border: 1px solid #ffffff;
   background-color: transparent;
   font-size: 20px;
   color: #fff;
