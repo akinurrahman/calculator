@@ -31,7 +31,7 @@
   margin: 10px;
   transition: ease-in;
 }
-.btn-clicked {
+.btn-clicked:not(.display) {
   transition: ease-out;
   transform: scale(1.07);
 }
