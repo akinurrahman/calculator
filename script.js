@@ -48,5 +48,7 @@ const displayValue = (event) => {
 
 // Add event listener to each button
 btns.forEach((btn) => {
-  btn.addEventListener("click", displayValue);
+ if (!btn.classList.contains("display")) {
+        btn.addEventListener("click", displayValue);
+      }
 });
